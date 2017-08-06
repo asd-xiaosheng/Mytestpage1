@@ -13,16 +13,16 @@ var myButton = document.querySelector('Button');
 var myHeading = document.querySelector('h1');
 
 function setUserName() {
-    var myName = prompt('Please enter your name.');
+    var myName = prompt('请输入你的名字.');
     localStorage.setItem('name',myName);
-    myHeading.textContent = 'Mozilla is cool,' + myName;
+    myHeading.textContent = '剑灵大佬,' + myName;
 }
 
 if(!localStorage.getItem('name')) {
     setUserName();
 }   else {
     var storedName = localStorage.getItem('name');
-    myHeading.textContent = 'Mozilla is cool,' + storedName;
+    myHeading.textContent = '剑灵大佬,' + storedName;
 }
 
 myButton.onclick = function() {
