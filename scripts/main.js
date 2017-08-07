@@ -2,13 +2,16 @@ var myImage = document.querySelector('img');
 
 myImage.onclick = function(){
     var mySrc = myImage.getAttribute('src');
-    if(mySrc !=='images/jianlingmeitu0001.jpg'){
-        myImage.setAttribute ('src','images/jianlingmeitu0001.jpg');
-    }   else {
-        myImage.setAttribute ('src','images/jianlingmeitu0002.jpg');
-    }
-}
 
+    if(mySrc ==='images/jianlingmeitu0001.jpg')
+    {myImage.setAttribute ('src','images/jianlingmeitu0002.jpg');}   
+    else if(mySrc ==='images/jianlingmeitu0002.jpg' ) 
+         {myImage.setAttribute ('src','images/jianlingmeitu0003.jpg');}    
+         else if(mySrc ==='images/jianlingmeitu0003.jpg')
+              {myImage.setAttribute ('src','images/jianlingmeitu0004.jpg');}
+              else{myImage.setAttribute ('src','images/jianlingmeitu0001.jpg');}
+}
+                 
 var myButton = document.querySelector('Button');
 var myHeading = document.querySelector('h1');
 
