@@ -1,0 +1,60 @@
+ul,ol {
+    list-style: none;
+}
+
+ul,ol li {
+    text-indent: 18px;
+    background: no-repeat left 50%;
+}
+
+#shashatx {
+    background: url('../images/head/沙沙.jpg') no-repeat left 50%;
+}
+
+#wangnantx {
+    background: url('../images/head/王楠.jpg') no-repeat left 50%;
+}
+
+#feixitx {
+    background: url('../images/head/肥曦.jpg') no-repeat left 50%;
+}
+
+#naihetx {
+    background: url('../images/head/奈何.jpg') no-repeat left 50%;
+}
+
+#zhanguotx {
+    background: url('../images/head/战国.jpg') no-repeat left 50%;
+}
+
+#dudutx {
+    background: url('../images/head/嘟嘟.jpg') no-repeat left 50%;
+}
+
+#xiaoshengtx {
+    background: url('../images/head/小圣.jpg') no-repeat left 50%;
+}
+
+#dadatx {
+    background: url('../images/head/dada.jpg') no-repeat left 50%;
+}
+
+#guchengtx {
+    background: url('../images/head/孤城.jpg') no-repeat left 50%;
+}
+
+#FFtx {
+    background: url('../images/head/FF.jpg') no-repeat left 50%;
+}
+
+#diaodiaotx {
+    background: url('../images/head/调调.jpg') no-repeat left 50%;
+}
+
+#xingyutx {
+    background: url('../images/head/星雨.jpg') no-repeat left 50%;
+}
+
+#qianhuantx {
+    background: url('../images/head/千幻.jpg') no-repeat left 50%;
+}
