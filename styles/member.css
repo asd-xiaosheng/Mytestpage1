@@ -1,11 +1,50 @@
 .zhanguo1 {
-    font-size: 100px;
+    font-size: 45px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
+    padding: 10px 0;
     color: #AD24B3;
 }
 
 .zhanguo2 {
+    width: 100%;
+    height: 100%;
+}
+
+#zgjs1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #67066B;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.dudu1 {
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    color: #0FA926;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.dudu2 {
+    width: 100%;
+    height: 100%;
+}
+
+.wangnan1 {
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    color: #871552;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.wangnan2 {
     width: 100%;
     height: 100%;
 }
