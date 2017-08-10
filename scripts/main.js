@@ -22,7 +22,7 @@ myImage002.onclick = function(){
 }
                  
 var myButton = document.querySelector('#anniu1');
-var myH = document.querySelector('h1');
+var myH = document.querySelector('p');
 
 function setUserName() {
     var myName = prompt('请输入大佬的名字.');
