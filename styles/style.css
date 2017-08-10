@@ -1,5 +1,5 @@
 html {
-    font-size: 10px; /* px 意为“像素（pixels）”：这个基础字体的尺寸现在是10像素 */
+    font-size: 10px;
     font-family:placeholder:this should be the rest of the output you got from Google fonts;
     background-color: #00539F;
 }
@@ -17,7 +17,7 @@ p,li,a {
     letter-spacing: 1px;
 }
 body {
-    width: 1400px;
+    width: 96.7%;
     margin: 0 auto;
     background-color: #FF9500;
     padding: 0 20px 20px 20px;
@@ -30,4 +30,16 @@ img {
 }
 #meitu {
     text-align: center;
+}
+#meitu001 {
+    opacity: 0.6;
+}
+#meitu001:hover {
+    opacity: 1;
+}
+#meitu002 {
+    opacity: 0.6;
+}
+#meitu002:hover {
+    opacity: 1;
 }
