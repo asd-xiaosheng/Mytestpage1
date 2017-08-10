@@ -7,6 +7,18 @@ ul,ol li {
     background: no-repeat left 50%;
 }
 
+a:link,a:visited{
+    font-weight: bold;
+    color: rgba(147, 14, 131, 0.54);
+    background-color: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover,a:active{
+    background-color: #cc0000;
+}
+
 #shashatx {
     background: url('../images/head/沙沙.jpg') no-repeat left 50%;
 }
