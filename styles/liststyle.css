@@ -2,17 +2,26 @@ ul,ol {
     list-style: none;
 }
 
-ul,ol li {
+ol li {
+    float: left;
     text-indent: 18px;
     background: no-repeat left 50%;
+}
+
+div,p {
+    float: left;
 }
 
 a:link,a:visited{
     font-weight: bold;
     color: rgba(147, 14, 131, 0.54);
     background-color: none;
-    text-align: center;
     text-decoration: none;
+    width:80px;
+    text-align:center;
+    display: block;
+    float: left;
+    text-indent: 0px;
 }
 
 a:hover,a:active{
