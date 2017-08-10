@@ -1,11 +1,11 @@
-ul,ol {
+ol {
     list-style: none;
-}
-
-ol li {
-    float: left;
     text-indent: 18px;
     background: no-repeat left 50%;
+}
+
+li {
+    float: left;
 }
 
 div,p {
